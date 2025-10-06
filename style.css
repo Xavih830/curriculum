@@ -5,3 +5,8 @@ body {
 nav ul li{
     list-style-type: none;
 }
+
+#map {
+    height: 350px;
+    width: 350px;
+}
