@@ -1,6 +1,12 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #eae6e5;
+}
+
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #0c120c;
+    background-color: #0b2545;
 }
 
 nav ul li{
@@ -17,8 +23,16 @@ nav ul li{
 }
 
 section {
-    background-color: #c20114;
+    background-color: #134074;
     h2 {
-        color: #0c120c;
+        color: #eae6e5;
     }
+
+    p, ul, ol, table {
+        background-color: #13315c;
+    }
+}
+
+footer {
+    background-color: #8da9c4;
 }
