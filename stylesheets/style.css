@@ -1,38 +1,57 @@
+header {
+    display: flex;
+    column-gap: 3.5vw;
+    align-items: center;
+    border-bottom: 0.25vw solid #000;
+}
+
 h1 {
-    text-align: center;
+    display: inline-block;
     font-weight: bold;
-    color: #eae6e5;
+    color: #000;
+    border: 0.25vw solid black;
+    padding: 1vw;
+    flex-direction: column;
+    margin: 2vw;
+}
+
+nav {
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 42vw;
+}
+
+#nv1{
+    grid-column: 1;
+    list-style-type: none;
+    display: flex;
+    gap: 2.5vw;
+    li {
+        width:8vw;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+#nv2{
+    grid-column: 2;
+    list-style-type: none;
+    display: flex;
+    li {
+        font-weight: bold;
+    }
 }
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #0b2545;
+    margin: 0vw;
 }
 
-nav ul li{
-    list-style-type: none;
-}
+
 
 #map {
     height: 350px;
     width: 350px;
 }
 
-#ft {
-    width: 1505px;
-}
-
-section {
-    background-color: #134074;
-    h2 {
-        color: #eae6e5;
-    }
-
-    p, ul, ol, table {
-        background-color: #13315c;
-    }
-}
-
-footer {
-    background-color: #8da9c4;
-}
