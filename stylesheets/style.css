@@ -193,17 +193,7 @@ body {
     }
 }
 
-.f1 {
-    grid-row: 1;
-}
 
-.f2 {
-    grid-row: 2;
-}
-
-.f3 {
-    grid-row: 3;
-}
 
 #map {
     height: 350px;
