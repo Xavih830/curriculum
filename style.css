@@ -1,7 +1,7 @@
 header {
     display: flex;
     align-items: center;
-    padding: 1vw 7vw 1vw 2vw;
+    padding: 1vw 2vw 1vw 4.5vw;
     background-color: #f8f8f8;
 }
 
@@ -22,7 +22,7 @@ nav {
     list-style-type: none;
     display: flex;
     li {
-        padding: 1vw;
+        padding: 0.25vw;
         text-align: center;
         font-weight: bold;
     }
@@ -43,21 +43,22 @@ body {
 #qs {
     padding: 5vw;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.5fr 0.5fr;
     align-items: center;
     background-color: #004ced;
+    column-gap: 4vw;
 }
 
 #qs-c1 {
     grid-column: 1;
     grid-row: 1;
-    display: flex;
-    max-width: 200px;
-    width: 100%;
-    height: auto;
+    display:flex;
+    flex-direction: row-reverse;
 
     img {
-        max-width: 200px;
+        border: 1vw solid #f8f8f8;
+        border-radius: 0.25vw;
+        max-width: 450px;
         width: 100%;
         height: auto;
     }
@@ -66,6 +67,21 @@ body {
 #qs-c2 {
     grid-column: 2;
     grid-row: 1;
+
+    h2 {
+        display: flex;
+        color: white;
+        font-size: 5vw;
+        text-align:center;
+        padding-bottom: 0.75vw;
+    }
+
+    p {
+        background-color: #f8f8f8;
+        border-radius: 0.25vw;
+        display: flex;
+        padding: 1.5vw;
+    }
 }
 
 #ds h2 {
